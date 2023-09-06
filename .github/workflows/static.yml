@@ -34,7 +34,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Node Install
-        uses: actions/setup-node@3
+        uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: 'npm'
